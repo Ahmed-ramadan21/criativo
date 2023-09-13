@@ -127,7 +127,7 @@ header {
     padding: 0 20px;
     position: fixed;
     top: 0;
-    z-index: 5;
+    z-index: 99;
     width: 100%;
 }
 
@@ -169,7 +169,7 @@ nav {
     padding: 20px 200px;
     position: fixed;
     top: 60px;
-    z-index: 5;
+    z-index: 99;
 }
 
 nav a {
@@ -252,7 +252,6 @@ h3 {
 
 p {
     color: #919191;
-    width: 50%;
     padding: 20px 0;
     font-size: 11px;
     line-height: 20px;
@@ -261,7 +260,7 @@ p {
 .home {
     background-color: #0c0c0c;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     padding: 200px 0 50px 200px;
 
     position: relative;
@@ -279,7 +278,7 @@ p {
 .home-right img {
     position: absolute;
     width: 35%;
-    bottom: -40px;
+    bottom: 0px;
     right: 0px;
     z-index: 1;
     /* background: linear-gradient(to left,#5cd2b972,#488a7b09); */
@@ -289,7 +288,7 @@ p {
     position: absolute;
     width: 35%;
     height: 100%;
-    bottom: -40px;
+    bottom: 0px;
     right: 0px;
 
     background: linear-gradient(to left, #5cd2b94b, #488a7b01);
@@ -314,6 +313,11 @@ p {
     margin-left: 20px;
 }
 
+.about-left{
+    width: 40%;
+    margin: 0 10px;
+}
+
 .about-link {
     color: #deddde;
     padding: 30px 0;
@@ -322,13 +326,13 @@ p {
 }
 
 .about-link2 {
-    padding: 40px 0;
+    padding: 40px 0 50px;
     letter-spacing: 0px;
 }
 
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     padding: 80px 200px;
@@ -351,6 +355,7 @@ button.btn1 {
     z-index: 1;
     font-family: inherit;
     color: rgb(249, 249, 249);
+    margin: 20px 0;
     
 }
 
@@ -374,4 +379,42 @@ button.btn1:hover::before {
 
 button.btn1:hover {
     color: #111;
+}
+.about-medal{
+    height: 100%;
+    width: 30%;
+    margin:10px ;
+
+}
+.about-m{
+    /* background: linear-gradient(to top, #5cd2b94b, #488a7b01); */
+    /* height: 10%; */
+    width: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 10px ;
+
+}
+.m1{
+    background-color: #0c0c0c;
+}
+.m2{
+    background: linear-gradient(to top, #5cd2b936, #488a7b01);
+}
+.about-m img{
+    width: 30%;
+}
+
+.about-m h4{
+    color: #deddde;
+    letter-spacing: 0;
+
+}
+
+.about-right{
+    width: 30%;
+    
+    margin:10px;
+    
+
 }
