@@ -108,46 +108,6 @@ a:hover{
     object-fit: cover;
 } */
 
-.svg {
-    background: url(../img/EnvatoMarket_Logo-White.svg) center no-repeat;
-    background-size: contain;
-    display: block;
-    height: 22px;
-    width: 184px;
-    text-indent: -9999em;
-    /* margin-left: 10px; */
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: #262626;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-}
-
-button {
-    color: #fff;
-    padding: 0.5em 1.5em;
-    font-size: 18px;
-    border-radius: 0.3em;
-    background: rgb(130, 181, 63);
-    border: 1px solid rgb(130, 181, 63);
-    transition: all 0.2s;
-}
-
-button:hover {
-    border: 3px solid rgb(130, 181, 63);
-}
-
-button:active {
-    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
-}
 
 /* .container{
     background-color: #020403;
@@ -166,9 +126,9 @@ nav {
     background-color: #151515;
     height: 100px;
     align-items: center;
-    padding: 20px 200px;
+    padding: 30px 200px;
     position: fixed;
-    top: 60px;
+    top: 0px;
     z-index: 99;
 }
 
@@ -194,6 +154,7 @@ nav .nav-lift {
     width: 40%;
     display: flex;
     justify-content: flex-start;
+    padding: 20px 0;
 }
 
 nav .nav-lift .logo-cr {
@@ -204,7 +165,7 @@ nav .nav-lift h1 {
     color: #5cd2b8;
     font-size: 50px;
     font-weight: bold;
-    padding: 0;
+    padding: 20px 0 0 0;
     margin: 0;
 }
 
@@ -255,6 +216,7 @@ p {
     padding: 20px 0;
     font-size: 11px;
     line-height: 20px;
+    
 }
 
 .home {
@@ -267,6 +229,10 @@ p {
 }
 
 .home-left {
+    width: 50%;
+}
+
+.home-left p{
     width: 50%;
 }
 
@@ -417,4 +383,55 @@ button.btn1:hover {
     margin:10px;
     
 
+}
+
+
+
+
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.services-left{
+    width: 40%;
+}
+
+.services-left img{
+    width: 100%;
+}
+
+.services-right{
+    width: 50%;
+
+}
+
+.services-r-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-r-b .div2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.services-r-b div img{
+    width: 80px;
+    padding: 0 15px 15px;
+}
+
+.services-r-b div div h4{
+    color: #deddde;
+    letter-spacing: 0;
+    padding: 10px 0 0;
+
+}
+.services-r-b div div p{
+    padding-top: 5px;
 }
