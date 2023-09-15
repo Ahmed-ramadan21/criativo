@@ -273,6 +273,7 @@ p {
     box-shadow: 0 0 5px 8px rgba(50, 97, 86, 0.815);
     border-radius: 50%;
     background-color: #deddde;
+    border: 5px solid #3c8273;
 }
 
 .text-home {
@@ -393,20 +394,26 @@ button.btn1:hover {
 .services{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 200px;
+    /* align-items: center; */
+    padding: 120px 200px 0;
 }
 
 .services-left{
     width: 40%;
+    height: 70vh;
 }
 
 .services-left img{
     width: 100%;
+    height: 100%;
+
 }
 
 .services-right{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 
@@ -434,4 +441,238 @@ button.btn1:hover {
 }
 .services-r-b div div p{
     padding-top: 5px;
+}
+
+
+
+.about2{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 0 200px;
+    
+}
+
+/* .about2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 13px    qqqqqqqqqqqqqqqqqqqqqqq;
+    right: 150px;
+    left: 0;
+    z-index: -1;
+    
+} */
+
+.about2-medal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+    top: 0;
+
+    background: linear-gradient(to right, #1d342fea, #131314b1);
+
+    z-index: 1;
+}
+
+.cont-services{
+    width: 100%;
+    height: 100%;
+    color: #17c3b2;
+    position: absolute;
+    width: 73%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill{
+    text-align: center;
+}
+.skill h3{
+    padding-bottom: 0;
+}
+
+.skill span{
+    color: #5cd2b8;
+    font-size: 48px;
+}
+
+.skill i{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.skill p{
+    padding: 0;
+    margin: 0;
+    color: #deddde;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 200px 50px;
+
+    height: 100%;
+
+}
+.project-top{
+    width: 66%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.project .project-top .project-t-l{
+    width: 100%;
+    height: 50;
+}
+.project .project-top .project-t-l p{
+    margin: 30px 0 50px;
+}
+
+.project .project-top .project-t-l h6{
+    color: #deddde;
+    margin-top:5px
+}
+.project .project-top .project-t-l h6 i{
+    color: #5cd2b8;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.project .project-top .project-t-r{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+
+
+}
+.project .project-top .project-t-r img{
+    width: 50%;
+}
+
+.project .project-bottom{
+    width: 34%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* gap: 15px; */
+
+}
+.project .project-bottom img{
+    width: 90%;
+    height: 49%;
+    
+}
+
+
+
+.about3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-image: url(img/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 0 200px;
+}
+
+.about3-medal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+    top: 0;
+
+    background: linear-gradient(to left, #1d342fea, #131314b1);
+
+    z-index: 1;
+}
+
+
+
+.sec5{
+    padding: 120px 200px 0;
+
+}
+
+.sec5 .sec5-l,.sec5-r{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.sec5 .sec5-l .dev-right{
+    width: 50%;
+}
+.sec5 .sec5-l .dev-left{
+    width: 50%;
+    margin-bottom: 100px;
+
+}
+
+.sec5 .sec5-r .dev-left{
+    
+    width: 50%;
+    padding: 20px 20px 0 0;
+    padding-bottom: 100px;
+}
+.sec5 .sec5-r .dev-right{
+    width: 50%;
+    padding: 20px 20px 0 0;
+    padding-top: 100px;
+}
+
+.sec5 .sec5-l .dev-right h6{
+    color: #deddde;
+    margin-top:10px
+}
+.sec5 .sec5-l .dev-right h6 i{
+    color: #5cd2b8;
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec5 .sec5-l .dev-right p{
+    margin: 50px 0;
+}
+
+.sec5 .dev-left img{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sec5 .dev-right img{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
 }
